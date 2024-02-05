@@ -1,5 +1,5 @@
 ## Настройка DHCP сервера на базе ALT Server
-![image](https://github.com/NyashMan/LinuxSysa/assets/1348639/50f52382-7e46-4b39-b980-d3167dd0904f)  
+![image](https://github.com/NyashMan/LinuxSysa/assets/1348639/53fb1e7a-d9b9-41ae-a03a-14f8e821d52e)  
 
 # Задача:  
 Настроить автоматическое распределение IP-адресов на Alt Server.  
