@@ -1,4 +1,4 @@
-![image](https://github.com/NyashMan/LinuxSysa/assets/1348639/0cb95e92-db93-48e0-b218-b6060a2e23e5)![image](https://github.com/NyashMan/LinuxSysa/assets/1348639/855b5ecd-28dc-414d-a96d-8ad0b590a933)![image](https://github.com/NyashMan/LinuxSysa/assets/1348639/fb671ca4-284d-4bb5-925b-6f412b44fff5)## Настройка DHCP сервера с двумя пулами адресов на базе ALT Server
+## Настройка DHCP сервера с двумя пулами адресов на базе ALT Server
 ![image](https://github.com/NyashMan/LinuxSysa/assets/1348639/81760e94-6b14-4d93-8fb5-5a1fc51a5056)  
 
 # Задача:  
