@@ -14,7 +14,7 @@ su -
 ```
 # Server:  
 Предварительная настройка виртуальной машины заключается в создании дополнительного сетевого интерфеса и назначения на него LAN Segment (в случае работы с VMWare)
-![image](https://github.com/NyashMan/LinuxSysa/assets/1348639/173cd43c-1f52-4d20-a194-ea3bc67d9c3f)  
+![image](https://github.com/NyashMan/LinuxSysa/assets/1348639/d9cd860e-2ab3-4e67-b483-3cadbe2686a7)  
 Зададим имя нашей машине:
 ```
 hostnamectl set-hostname Server; exec bash
