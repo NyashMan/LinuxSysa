@@ -19,10 +19,15 @@ su -
 ```
 hostnamectl set-hostname Server; exec bash
 ```
+![image](https://github.com/NyashMan/LinuxSysa/assets/1348639/c9682966-2201-4861-9bc7-36224382ec35)
 
-Установим пакет **"dhcp-server"**:
+Предварительно, перед началом работы необходимо обновить список репозиториев для скачивания пакетов приложений:  
 ```
-apt-get update && apt-get install -y dhcp-server
+apt-get update
+```
+Установим пакет **"dhcp-server"**:  
+```
+apt-get install -y dhcp-server
 ```
 
 Дополнительно установим пакет для работы с текстом **nano**:
@@ -35,7 +40,7 @@ nano /etc/net/ifaces/ens34/ipv4address
 ```
 Укажем в нём значение ip-адресса и маски подсети:  
 ```
-192.168.100.1/24
+192.168.15.1/24
 ```
 
 Укажем сетевой интерфейс, через который будет работать DHCP-сервер:
@@ -52,7 +57,7 @@ nano /etc/sysconfig/dhcpd
 nano /etc/dhcp/dhcpd.conf
 ```
 после удаления лишних строк из файла - конфигурационный файл выглядит следующим образом:
-![image](https://github.com/NyashMan/LinuxSysa/assets/1348639/7bb52086-8fb8-4117-88c1-7625cf68bb8f)  
+![image](https://github.com/NyashMan/LinuxSysa/assets/1348639/c001232c-2f2a-4b3f-b52b-fc694e66986b)  
 
 где:
 **default и max - leases-time **- стандартное и максимальное время аренды (в секундах)  
